@@ -127,6 +127,13 @@ namespace MyFirstConsoleApp
             return sum;
         }
 
+        public static int CalculateMultiplication(int a, int b)
+        {
+            int sum = a * b;
+
+            return sum;
+        }
+
 
     }
 }
