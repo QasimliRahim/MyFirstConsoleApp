@@ -135,5 +135,12 @@ namespace MyFirstConsoleApp
         }
 
 
+        public static int CalculateDivision(int a, int b)
+        {
+            int sum = a / b;
+
+            return sum;
+        }
+
     }
 }
