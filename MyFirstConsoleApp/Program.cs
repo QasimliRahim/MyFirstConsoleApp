@@ -86,7 +86,8 @@ namespace MyFirstConsoleApp
                         operator2 = Console.ReadLine();
 
 
-                        int sum = int.Parse(operator1) / int.Parse(operator2);
+                        int sum = CalculateDivision(int.Parse(operator1), int.Parse(operator2));
+
 
                         Console.WriteLine("nisbet:" + sum);
 
@@ -103,7 +104,7 @@ namespace MyFirstConsoleApp
                         operator2 = Console.ReadLine();
 
 
-                        int sum = int.Parse(operator1) * int.Parse(operator2);
+                        int sum = CalculateMultiplication(int.Parse(operator1), int.Parse(operator2));
 
                         Console.WriteLine("hasil:" + sum);
 
@@ -119,7 +120,7 @@ namespace MyFirstConsoleApp
             };
         }
 
-
+        //This is  a method
         public static int CalculateSUM(int a, int b)
         {
             int sum = a + b;
@@ -141,6 +142,7 @@ namespace MyFirstConsoleApp
 
             return sum;
         }
+        
 
     }
 }
